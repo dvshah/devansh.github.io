@@ -1,0 +1,77 @@
+.team1 {
+	margin-top: 1em;
+	background: url(/img/team/bg.png) repeat;
+}
+
+.text {
+	padding-top: 0.5em;
+	text-align: center;
+	margin-top: 0em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.8em;
+	margin-bottom: 1em;
+	color: black;
+}
+
+.inline {
+	display: inline-block;
+	margin-bottom: 30px;
+	margin: 2em 4em;
+	border: 1px;
+}
+
+.clearboth { 
+	clear:both;
+}
+
+.team2 {
+	text-align: center;
+	overflow: hidden;
+	align-content: center;
+}
+
+.name {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 1.5em;
+}
+
+img {
+	border-radius: 50%;
+}
+
+.description {
+	font-size: 0.7em;
+}
+
+.team3 {
+	text-align: center;
+	overflow: hidden;
+	align-content: center;
+}
+
+.inline-1 {
+	display: inline-block;
+	margin-bottom: 30px;
+	margin: 2em;
+}
+
+#app a {
+  border: 0.1em white solid;
+  color: orange;
+  border-radius: 1em;
+  padding: 0.25em 1em;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+#app a:hover {
+  background-color: white;
+  color: #343a40;
+  text-decoration: none;
+}
+
+#app i {
+	font-size: 1.3em;
+}

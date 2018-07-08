@@ -1,2 +1,2 @@
-# devansh.github.io
-website
+# technical-individual
+website template for individual techinical clubs
