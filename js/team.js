@@ -73,13 +73,13 @@ Vue.component('member-component', {
 	template: `
 			<div class="inline-1">
 				<div class="image">
-					<img :src="member.img" alt="images" height="250px" width="250px">
+					<img :src="member.img" alt="images" height="200px" width="200px">
 				</div>
 				<div class="name">
 					<strong>{{member.name}}</strong>
 					<div class="description">{{member.description}}</div>
 					<div class="description">{{member.year}}</div>
-					<div class="description">Contact: {{member.contact}}</div>
+					<a href="#"> <i class="fab fa-github"></i> </a>
 				</div>
 				<br class="clearboth" />
 			</div>
@@ -93,7 +93,7 @@ Vue.component('head-component', {
 	template: `
 			<div class="inline">
 				<div class="image">
-					<img :src="head.img" alt="images" height="350px" width="350px">
+					<img :src="head.img" alt="images" height="300px" width="300px">
 				</div>
 				<div class="name" style="font-size:2em;">
 					<strong>{{head.name}}</strong>
