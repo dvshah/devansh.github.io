@@ -1,16 +1,16 @@
 .team1 {
-	margin-top: 1em;
-	background: url(/img/team/bg.png) repeat;
+	background: url("../img/team/wall.jpg");
+	height: 100%;
+	background-size: 100%;
 }
 
 .text {
-	padding-top: 0.5em;
+	padding-top: 0.7em;
 	text-align: center;
 	margin-top: 0em;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 2.8em;
-	margin-bottom: 1em;
-	color: black;
+	font-size: 3em;
+	color: #4ddbff;
 }
 
 .inline {
@@ -33,7 +33,7 @@
 .name {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	color: black;
+	color: #ff9933;
 	font-size: 1.5em;
 }
 
@@ -58,17 +58,13 @@ img {
 }
 
 #app a {
-  border: 0.1em white solid;
-  color: orange;
-  border-radius: 1em;
-  padding: 0.25em 1em;
+  color: #ffff00;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
 
 #app a:hover {
-  background-color: white;
-  color: #343a40;
+  color: orange;
   text-decoration: none;
 }
 
